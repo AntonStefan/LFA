@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Nested Enumerate Example with Quotation}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This document is designed to demonstrate nested \texttt{enumerate} environments in LaTeX, along with a quotation example.
+
+\section{Nested Enumerations}
+Below is an example of multiple nested enumerate lists:
+
+\begin{enumerate}
+    \item First level, Item 1
+        \begin{enumerate}
+            \item Second level, Item 1
+                \begin{enumerate}
+                    \item Third level, Item 1
+                    \item Third level, Item 2
+                \end{enumerate}
+            \item Second level, Item 2
+        \end{enumerate}
+    \item First level, Item 2
+        \begin{enumerate}
+            \item Second level, Item 3
+                \begin{enumerate}
+                    \item Third level, Item 3
+                        \begin{enumerate}
+                            \item Fourth level, Item 1
+                            \item Fourth level, Item 2
+                        \end{enumerate}
+                    \item Third level, Item 4
+                \end{enumerate}
+            \item Second level, Item 4
+        \end{enumerate}
+\end{enumerate}
+
+\section{Quotation Example}
+Here is an example of a quotation in LaTeX:
+
+\begin{quotation}
+"No one can make you feel inferior without your consent." - Eleanor Roosevelt
+\end{quotation}
+
+\end{document}
